@@ -1,0 +1,44 @@
+.Card-food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 203px;
+    margin: auto;
+}
+
+.Card-food-img{
+    width: 150px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-food-name{
+    min-height: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.Card-food-price{
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    font-size: 16px;
+    color: #029094;
+    font-weight: bold;
+}
+
+.Card-food-plus{
+    position: absolute;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: red;
+    top: 187px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
